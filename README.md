@@ -42,7 +42,7 @@ skills through hands-on labs and internships.
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/SatzNithii)
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-111927?style=flat&logo=hackthebox&logoColor=9FEF00)](https://academy.hackthebox.com/dashboard)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/satheesh-nithiananthan-86a2913ab
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/satheesh-nithiananthan-86a2913ab)
 
 ---
 
@@ -51,7 +51,7 @@ skills through hands-on labs and internships.
 - 🔐 CyberXchange — Cybersecurity Internship 2026 (Ongoing)
 - 🎯 TryHackMe — Active
 - 🎯 HackTheBox Academy — Active
-```
+---
 
 *SAIZERO — Ground Zero Defence*
 *CyberLycan — Every shadow has a hunter*
