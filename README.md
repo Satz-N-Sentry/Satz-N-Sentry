@@ -1,6 +1,5 @@
 # Satheesh Nithiananthan
-### SAIZERO — Ground Zero Defence
-> *Every shadow has a hunter* 🐺
+### SAIZERO — Ground Zero Defence 🐺
 
 ---
 
