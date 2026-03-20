@@ -12,8 +12,8 @@ experience through dual cybersecurity internships at Future Interns and
 CyberXchange (2026 — Present), completing professional VAPT reports and
 phishing email analysis using real-world tools and industry methodologies.
 
-- 🔴 Offensive: VAPT, Web App Security, OWASP Top 10, Phishing Analysis
-- 🔵 Defensive: Wazuh SIEM, Nmap Detection, Log Analysis
+- 🔴 Offensive: VAPT, Web App Security, OWASP Top 10
+- 🔵 Defensive: Wazuh SIEM, Nmap Detection, Log Analysis, Phishing Analysis
 - 🛠 Tools: Kali Linux, Burp Suite, OWASP ZAP, Nmap, curl, Thunderbird, MXToolbox
 - 📚 Learning: CEH, eJPT, Bug Bounty
 
