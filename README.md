@@ -1,15 +1,20 @@
 # Satheesh Nithiananthan
+
 ### SAIZERO — Ground Zero Defence 🐺
 
 ---
 
 ## About Me
 
-Cybersecurity analyst and ethical hacker focused on vulnerability assessment, penetration testing, and blue team defence. Currently gaining hands-on industry experience through dual cybersecurity internships at Future Interns and CyberXchange (2026 — Present), completing professional VAPT reports and phishing email analysis using real-world tools and industry methodologies.
+Cybersecurity analyst and ethical hacker focused on vulnerability assessment,
+penetration testing, and blue team defence. Currently gaining hands-on industry
+experience through dual cybersecurity internships at Future Interns and
+CyberXchange (2026 — Present), completing professional VAPT reports and
+phishing email analysis using real-world tools and industry methodologies.
 
 - 🔴 Offensive: VAPT, Web App Security, OWASP Top 10, Phishing Analysis
 - 🔵 Defensive: Wazuh SIEM, Nmap Detection, Log Analysis
-- 🛠 Tools: Kali Linux, Burp Suite, OWASP ZAP, Nmap, curl
+- 🛠 Tools: Kali Linux, Burp Suite, OWASP ZAP, Nmap, curl, Thunderbird, MXToolbox
 - 📚 Learning: CEH, eJPT, Bug Bounty
 
 ---
@@ -22,6 +27,8 @@ Cybersecurity analyst and ethical hacker focused on vulnerability assessment, pe
 | [FUTURE_CS_02](https://github.com/Satz-N-Sentry/FUTURE_CS_02) | Phishing Detection — 3 real samples — Gmail, Microsoft, XRP scams | Thunderbird, MXToolbox, VirusTotal |
 | [wazuh-nmap-detection](https://github.com/Satz-N-Sentry/wazuh-nmap-detection) | Real-time port scan detection using Wazuh SIEM | Wazuh SIEM |
 | [wazuh-homelab](https://github.com/Satz-N-Sentry/wazuh-homelab) | Wazuh Manager & Agent setup | Wazuh |
+
+---
 
 ## Skills
 
@@ -43,10 +50,12 @@ Cybersecurity analyst and ethical hacker focused on vulnerability assessment, pe
 ---
 
 ## Certifications & Training
+
 - 🔐 Future Interns — Cybersecurity Internship 2026 (Ongoing)
 - 🔐 CyberXchange — Cybersecurity Internship 2026 (Ongoing)
 - 🎯 TryHackMe — Active
 - 🎯 HackTheBox Academy — Active
+
 ---
 
 *SAIZERO — Ground Zero Defence*
