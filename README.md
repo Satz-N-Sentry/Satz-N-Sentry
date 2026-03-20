@@ -21,8 +21,9 @@ skills through hands-on labs and internships.
 
 | Project | Description | Tools |
 |---------|-------------|-------|
-| [FUTURE_CS_01](https://github.com/Satz-N-Sentry/FUTURE_CS_01) | VAPT Report — OWASP Juice Shop | ZAP, Nmap, Kali |
-| [wazuh-nmap-detection](https://github.com/Satz-N-Sentry/wazuh-nmap-detection) | Real-time port scan detection | Wazuh SIEM |
+| [FUTURE_CS_01](https://github.com/Satz-N-Sentry/FUTURE_CS_01) | VAPT Report — OWASP Juice Shop — 7 vulnerabilities identified | ZAP, Nmap, Burp, Kali |
+| [FUTURE_CS_02](https://github.com/Satz-N-Sentry/FUTURE_CS_02) | Phishing Detection — 3 real samples analysed — Gmail, Microsoft, XRP scams | Thunderbird, MXToolbox, VirusTotal |
+| [wazuh-nmap-detection](https://github.com/Satz-N-Sentry/wazuh-nmap-detection) | Real-time port scan detection using Wazuh SIEM | Wazuh SIEM |
 | [wazuh-homelab](https://github.com/Satz-N-Sentry/wazuh-homelab) | Wazuh Manager & Agent setup | Wazuh |
 
 ---
