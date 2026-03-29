@@ -8,13 +8,11 @@
 
 Cybersecurity analyst and ethical hacker focused on vulnerability assessment,
 penetration testing, and blue team defence. Currently gaining hands-on industry
-experience through dual cybersecurity internships at Future Interns and
-CyberXchange (2026 — Present), completing professional VAPT reports and
-phishing email analysis using real-world tools and industry methodologies.
+experience through cybersecurity internships at Future Interns(2026 — Present).
 
 - 🔴 Offensive: VAPT, Web App Security, OWASP Top 10
-- 🔵 Defensive: Wazuh SIEM, Nmap Detection, Log Analysis, Phishing Analysis
-- 🛠 Tools: Kali Linux, Burp Suite, OWASP ZAP, Nmap, curl, Thunderbird, MXToolbox
+- 🔵 Defensive: Wazuh SIEM, Nmap Detection, Log Analysis, Phishing Analysis, API Security
+- 🛠 Tools: Kali Linux, Burp Suite, OWASP ZAP, Nmap, curl, Thunderbird, MXToolbox, Postman
 - 📚 Learning: CEH, eJPT, Bug Bounty
 
 ---
@@ -27,7 +25,7 @@ phishing email analysis using real-world tools and industry methodologies.
 | [FUTURE_CS_02](https://github.com/Satz-N-Sentry/FUTURE_CS_02) | Phishing Detection — 3 real samples — Gmail, Microsoft, XRP scams | Thunderbird, MXToolbox, VirusTotal |
 | [wazuh-nmap-detection](https://github.com/Satz-N-Sentry/wazuh-nmap-detection) | Real-time port scan detection using Wazuh SIEM | Wazuh SIEM |
 | [wazuh-homelab](https://github.com/Satz-N-Sentry/wazuh-homelab) | Wazuh Manager & Agent setup | Wazuh |
-
+| [FUTURE_CS_03](https://github.com/Satz-N-Sentry/FUTURE_CS_03) | API Security Risk Analysis — OWASP crAPI — 9 vulnerabilities | Postman, jwt.io, Mailhog, Docker |
 ---
 
 ## Skills
