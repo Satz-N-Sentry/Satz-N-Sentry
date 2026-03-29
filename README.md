@@ -50,7 +50,6 @@ experience through cybersecurity internships at Future Interns(2026 — Present)
 ## Certifications & Training
 
 - 🔐 Future Interns — Cybersecurity Internship 2026 (Ongoing)
-- 🔐 CyberXchange — Cybersecurity Internship 2026 (Ongoing)
 - 🎯 TryHackMe — Active
 - 🎯 HackTheBox Academy — Active
 
