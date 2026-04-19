@@ -19,16 +19,20 @@ through independent security research under SAIZERO — Ground Zero Defence (202
 |---------|-------------|-------|
 | [FUTURE_CS_01](https://github.com/Satz-N-Sentry/FUTURE_CS_01) | VAPT Report — OWASP Juice Shop — 7 vulnerabilities identified | ZAP, Nmap, Burp, Kali |
 | [FUTURE_CS_02](https://github.com/Satz-N-Sentry/FUTURE_CS_02) | Phishing Detection — 3 real samples — Gmail, Microsoft, XRP scams | Thunderbird, MXToolbox, VirusTotal |
-| [wazuh-nmap-detection](https://github.com/Satz-N-Sentry/wazuh-nmap-detection) | Real-time port scan detection using Wazuh SIEM | Wazuh SIEM |
-| [wazuh-homelab](https://github.com/Satz-N-Sentry/wazuh-homelab) | Wazuh Manager & Agent setup | Wazuh |
-| [FUTURE_CS_03](https://github.com/Satz-N-Sentry/FUTURE_CS_03) | API Security Risk Analysis — OWASP crAPI — 9 vulnerabilities | Postman, jwt.io, Mailhog, Docker |
+| [FUTURE_CS_03](https://github.com/Satz-N-Sentry/FUTURE_CS_03) | API Security Risk Analysis — OWASP crAPI — 9 vulnerabilities mapped to OWASP, CVE, MITRE | Postman, jwt.io, Mailhog, Docker |
+| [SAIZERO-Cowrie-Honeypot](https://github.com/Satz-N-Sentry/SAIZERO-Cowrie-Honeypot) | Real-time SSH Honeypot — Cowrie + Wazuh SIEM + Wireshark DPI — Automated botnet confirmed | Cowrie, Wazuh, Wireshark, Kali |
+| [wazuh-nmap-detection](https://github.com/Satz-N-Sentry/wazuh-nmap-detection) | Real-time Nmap port scan detection — TCP, UDP, ICMP — Level 15 critical alerts | Wazuh SIEM, iptables, Kali |
+| [wazuh-homelab](https://github.com/Satz-N-Sentry/wazuh-homelab) | Wazuh Manager & Agent homelab setup | Wazuh |
 
 ---
 ## Skills
-
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kalilinux&logoColor=white)
+![BlackArch](https://img.shields.io/badge/BlackArch-1793D1?style=flat&logo=archlinux&logoColor=white)
 ![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat&logo=owasp&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat&logo=wazuh&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
