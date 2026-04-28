@@ -1,16 +1,23 @@
 # Satheesh Nithiananthan
 ### SAIZERO — Ground Zero Defence 🐺
+
 ---
+
 ## About Me
+
 Cybersecurity analyst and ethical hacker focused on vulnerability assessment,
 penetration testing, and blue team defence. Building hands-on industry experience
 through independent security research under SAIZERO — Ground Zero Defence (2024 — Present).
+
 - 🔴 Offensive: VAPT, Web App Security, OWASP Top 10, Android Malware Analysis
 - 🔵 Defensive: Wazuh SIEM, Honeypot Deployment, Log Analysis, Phishing Analysis, API Security
 - 🤖 Research: ML-based Malware Detection, Network Forensics (Wireshark DPI)
 - 🛠 Tools: Kali Linux, Burp Suite, OWASP ZAP, Nmap, Postman, androguard, scikit-learn, Cowrie, Wireshark
+
 ---
+
 ## Featured Projects
+
 | Project | Description | Tools |
 |---------|-------------|-------|
 | [FUTURE_CS_01](https://github.com/Satz-N-Sentry/FUTURE_CS_01) | VAPT Report — OWASP Juice Shop — 7 vulnerabilities identified | ZAP, Nmap, Burp, Kali |
@@ -20,20 +27,31 @@ through independent security research under SAIZERO — Ground Zero Defence (202
 | [android-malware-analysis](https://github.com/Satz-N-Sentry/android-malware-analysis) | Android Malware Detection — Static analysis + Random Forest ML — 100% malware recall | androguard, scikit-learn, Python, Kali |
 | [wazuh-nmap-detection](https://github.com/Satz-N-Sentry/wazuh-nmap-detection) | Real-time Nmap port scan detection — TCP, UDP, ICMP — Level 15 critical alerts | Wazuh SIEM, iptables, Kali |
 | [wazuh-homelab](https://github.com/Satz-N-Sentry/wazuh-homelab) | Wazuh Manager & Agent homelab setup | Wazuh |
-| [Supply-Chain-Secret-Hunting](https://github.com/Satz-N-Sentry/Supply-Chain-Secret-Hunting) | Bug bounty research — SSR framework token exposure — passive recon — CWE-798 — HackerOne VDP — High severity validated | curl, Burp Suite, grep, Kali |
+| [Supply-Chain-Secret-Hunting](https://github.com/Satz-N-Sentry/Supply-Chain-Secret-Hunting) | Bug bounty research — SSR framework token exposure — passive recon — CWE-798 — HackerOne VDP | curl, Burp Suite, grep, Kali |
+
 ---
+
 ## Bug Bounty Research
+
 > Independent vulnerability research under responsible disclosure programs. All findings reported via authorized VDP/bug bounty platforms. No production data accessed or modified.
-| Finding | Class | Severity | Platform | Status |
+>
+> Duplicate findings confirm the vulnerability was real and independently discovered using the same passive methodology.
+
+| Finding | Class | Severity | Platform | Result |
 |---------|-------|----------|----------|--------|
-| CMS API token exposed in Nuxt.js SSR client-side state (`window.__NUXT__`) — read/write access to production dataset | CWE-798 — Hard-coded Credentials | 🔴 High | HackerOne VDP | Validated |
+| CMS API token exposed in Nuxt.js SSR client-side state (`window.__NUXT__`) — read/write access to production dataset | CWE-798 — Hard-coded Credentials | 🔴 High | HackerOne VDP | Duplicate — Pre-validated |
+
 ![Method](https://img.shields.io/badge/method-passive%20recon%20only-7c3aed?style=flat-square)
 ![CWE](https://img.shields.io/badge/CWE-CWE--798-dd6b20?style=flat-square)
 ![Severity](https://img.shields.io/badge/severity-high-red?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-HackerOne%20VDP-0f766e?style=flat-square)
+![Result](https://img.shields.io/badge/result-duplicate%20%E2%80%94%20pre--validated-6b7280?style=flat-square)
 [![Writeup](https://img.shields.io/badge/writeup-Supply--Chain--Secret--Hunting-185FA5?style=flat-square)](https://github.com/Satz-N-Sentry/Supply-Chain-Secret-Hunting)
+
 ---
+
 ## Skills
+
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kalilinux&logoColor=white)
 ![BlackArch](https://img.shields.io/badge/BlackArch-1793D1?style=flat&logo=archlinux&logoColor=white)
 ![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat&logo=owasp&logoColor=white)
@@ -47,20 +65,28 @@ through independent security research under SAIZERO — Ground Zero Defence (202
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
 ![Bug Bounty](https://img.shields.io/badge/Bug%20Bounty-Active-red?style=flat)
-![Passive Recon](https://img.shields.io/badge/Passive%20Recon-Expert-555?style=flat)
+![Passive Recon](https://img.shields.io/badge/Passive%20Recon-Expert-555555?style=flat)
 ![SSR Security](https://img.shields.io/badge/SSR%20Security-CWE--798-dd6b20?style=flat)
+
 ---
+
 ## Find Me
+
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/SatzNithii)
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-111927?style=flat&logo=hackthebox&logoColor=9FEF00)](https://academy.hackthebox.com/dashboard)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satheesh-nithiananthan-86a2913ab)
-[![HackerOne](https://img.shields.io/badge/HackerOne-494649?style=flat&logo=hackerone&logoColor=white)](https://hackerone.com/satz_n_sentry)
+[![HackerOne](https://img.shields.io/badge/HackerOne-494649?style=flat&logo=hackerone&logoColor=white)](https://hackerone.com/YOUR_USERNAME_HERE)
+
 ---
+
 ## Certifications & Training
+
 - 🎯 TryHackMe — Active
 - 🎯 LetsDefend — Active
 - 🎯 Bugcrowd — Active
 - 🎯 HackerOne VDP — Active
+
 ---
+
 *SAIZERO — Ground Zero Defence*
 *CyberLycan — Every shadow has a hunter*
