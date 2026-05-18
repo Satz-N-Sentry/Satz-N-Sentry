@@ -30,10 +30,12 @@ I specialize in **web application security research** with a primary focus on:
 
 | Vulnerability | CWE | Severity | Platform | Status |
 |--------------|-----|----------|----------|--------|
-| Cross-tenant WebSocket authentication bypass — unauthorized private channel subscription across tenant boundaries via improper Pusher auth token issuance — real-time security event eavesdropping | CWE-284 | 🔴 High | Intigriti | Submitted |
-| Server-side authorization bypass — cross-tenant write operations accepted with misleading 2xx responses bypassing tenant isolation controls | CWE-755 | 🟡 Medium | Intigriti | Submitted |
-| Tenant workspace enumeration via distinguishable API error responses on authenticated endpoints | CWE-203 | 🟢 Low | Intigriti | Submitted |
-| SSR framework secret exposure — production API token leaked in client-side state hydration — full read/write dataset access confirmed | CWE-798 | 🔴 High | HackerOne VDP | Duplicate — Pre-validated |
+| Cross-tenant WebSocket authentication bypass — unauthorized private channel subscription across tenant boundaries via improper Pusher auth token issuance — real-time security event eavesdropping confirmed | CWE-284 | 🔴 High | Intigriti | Under Review |
+| Server-side authorization bypass — cross-tenant write operations accepted with misleading 2xx responses bypassing tenant isolation controls | CWE-755 | 🟡 Medium | Intigriti | Under Review |
+| Tenant workspace enumeration via distinguishable API error responses on authenticated endpoints | CWE-203 | 🟢 Low | Intigriti | Under Review |
+| SSR framework secret exposure — production API token leaked in client-side state hydration — full read/write dataset access independently confirmed | CWE-798 | 🔴 High | HackerOne VDP | Independently Validated |
+| Hardcoded blockchain service credentials exposed in public JS bundle — multi-network surveillance risk across 7 chains | CWE-798 | 🟡 Medium | Bugcrowd | Independently Validated |
+| IDOR on financial ranking endpoint — private user financial data exposure | CWE-639 | 🟡 Medium | Bugcrowd | Independently Validated |
 | RBAC failures · AI endpoint over-privilege · security misconfigurations across live production assets — mapped to OWASP Top 10:2025 | CWE-862, CWE-1336, CWE-693 | 🟡 Medium | NCSA Bug Bounty VDP | Certificate of Appreciation |
 
 ### Active Platforms
@@ -52,6 +54,7 @@ API Security       │ REST abuse · Mass Assignment · Parameter Pollution · J
 Recon              │ Subdomain enum · JS bundle analysis · SSR secret hunting · OSINT
 WebSocket          │ Auth bypass · Channel hijacking · Cross-tenant event eavesdropping
 OAuth/Session      │ State CSRF · redirect_uri bypass · Token leakage · Session fixation
+Blockchain         │ Smart contract recon · API key exposure · Web3 endpoint analysis
 ```
 
 ### Defensive Security
@@ -75,7 +78,7 @@ Scripting          │ Python · Bash · Docker
 
 | Project | Focus | Impact |
 |---------|-------|--------|
-| [Supply-Chain-Secret-Hunting](https://github.com/Satz-N-Sentry/Supply-Chain-Secret-Hunting) | SSR token exposure via passive JS bundle recon | CWE-798 · High · Pre-validated duplicate |
+| [Supply-Chain-Secret-Hunting](https://github.com/Satz-N-Sentry/Supply-Chain-Secret-Hunting) | SSR token exposure via passive JS bundle recon | CWE-798 · High · Independently Validated |
 | [NCSA-VDP-Assessment](https://github.com/Satz-N-Sentry/NCSA-VDP-Assessment) | Full passive VAPT — RBAC, AI over-privilege, misconfigs | Certificate of Appreciation · 2026 |
 | [FUTURE_CS_03](https://github.com/Satz-N-Sentry/FUTURE_CS_03) | API Security — 9 vulnerabilities on OWASP crAPI | OWASP · CVE · MITRE mapped |
 | [android-malware-analysis](https://github.com/Satz-N-Sentry/android-malware-analysis) | ML malware detection — Random Forest — 100% recall | Static analysis · scikit-learn · Python |
@@ -89,7 +92,7 @@ Scripting          │ Python · Bash · Docker
 
 ```
 A01 Broken Access Control     ████████████████████ Primary Research Focus
-A02 Cryptographic Failures    ███████████████░░░░░ JWT · Token · Crypto Analysis  
+A02 Cryptographic Failures    ███████████████░░░░░ JWT · Token · Crypto Analysis
 A03 Injection                 █████████████░░░░░░░ SQLi · XSS · SSTI
 A07 Auth & Session Failures   ████████████████░░░░ OAuth · WebSocket · Session
 A08 Software & Data Integrity ████████░░░░░░░░░░░░ Webhook · Supply Chain
@@ -121,7 +124,7 @@ current_targets = {
 }
 
 methodology = "OWASP Top 10:2025 → Threat model → PoC → Responsible disclosure"
-affiliation = "SAIZERO — Ground Zero Defence (2024 — Present)"
+affiliation  = "SAIZERO — Ground Zero Defence (2024 — Present)"
 ```
 
 ---
@@ -155,6 +158,7 @@ affiliation = "SAIZERO — Ground Zero Defence (2024 — Present)"
 ![JWT Analysis](https://img.shields.io/badge/JWT-Analysis-f59e0b?style=flat)
 ![IDOR](https://img.shields.io/badge/IDOR-Research-8b5cf6?style=flat)
 ![SSR Security](https://img.shields.io/badge/SSR-CWE--798-dd6b20?style=flat)
+![Blockchain Security](https://img.shields.io/badge/Blockchain-Security-F7931A?style=flat)
 ![Passive Recon](https://img.shields.io/badge/Passive%20Recon-Expert-555555?style=flat)
 
 ---
