@@ -105,7 +105,6 @@ A10 SSRF                      ██████████░░░░░░�
 
 | Credential | Issuer | Year |
 |-----------|--------|------|
-| 🏆 Certificate of Appreciation — Bug Bounty VDP | NCSA Maldives | 2026 |
 | 🎯 CICSA — Certified IT Infrastructure & Cyber SOC Analyst | RedTeam Hacker Academy | 2025 |
 | 🎯 National Cybersecurity Certification | NCSA Maldives | 2026 |
 | 🎓 BSc Computer Science | Alagappa University | 2024 |
@@ -167,7 +166,7 @@ affiliation  = "SAIZERO — Ground Zero Defence (2024 — Present)"
 
 **SAIZERO — Ground Zero Defence**
 
-*Affiliated independent security research unit · Est. 2024*
+*Affiliated independent security research unit · Est. 2025*
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=Satz-N-Sentry&color=00ff41&style=flat&label=Profile+Views)
 
