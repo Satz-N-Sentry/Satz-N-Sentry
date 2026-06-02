@@ -11,12 +11,13 @@
 
 ## 🎯 Specialization
 
-I specialize in **web application security research** with a primary focus on:
+I specialize in **web application and mobile security research** with a primary focus on:
 
 - **Authentication & Authorization Bypass** — OAuth flows, JWT weaknesses, session management failures
 - **API Security** — REST API abuse, mass assignment, parameter pollution, cross-tenant IDOR
 - **Real-time Protocol Security** — WebSocket authentication bypass, private event channel hijacking
 - **Secret Exposure** — SSR framework leaks, JS bundle analysis, supply chain passive recon
+- **Mobile Security** — Frida Gadget injection, SSL pinning bypass, APK analysis, gRPC interception
 - **Business Logic Flaws** — Tenant isolation failures, privilege escalation, access control gaps
 
 > All research follows **OWASP Top 10:2025** · CWE mapping · Responsible disclosure only
@@ -51,6 +52,7 @@ I specialize in **web application security research** with a primary focus on:
 ```
 Web Application    │ IDOR · XSS · SQLi · SSRF · CSRF · Auth Bypass · Business Logic
 API Security       │ REST abuse · Mass Assignment · Parameter Pollution · JWT Attacks
+Mobile Security    │ Frida · objection · APK patching · SSL pinning bypass · gRPC interception
 Recon              │ Subdomain enum · JS bundle analysis · SSR secret hunting · OSINT
 WebSocket          │ Auth bypass · Channel hijacking · Cross-tenant event eavesdropping
 OAuth/Session      │ State CSRF · redirect_uri bypass · Token leakage · Session fixation
@@ -68,6 +70,7 @@ Malware Analysis   │ Android static analysis · ML-based detection · behavior
 ```
 Core               │ Burp Suite · Kali Linux · Postman · Nuclei
 Recon              │ Subfinder · ffuf · XnLinkFinder · Amass · httpx
+Mobile             │ Frida · objection · apktool · adb · apksigner
 Analysis           │ Wireshark · jwt.io · CyberChef · Shodan
 Scripting          │ Python · Bash · Docker
 ```
@@ -78,8 +81,9 @@ Scripting          │ Python · Bash · Docker
 
 | Project | Focus | Impact |
 |---------|-------|--------|
+| [frida-ssl-bypass-setup](https://github.com/Satz-N-Sentry/frida-ssl-bypass-setup) | Non-rooted Android SSL pinning bypass — Frida Gadget injection methodology | Mobile Bug Bounty · CWE-295 |
 | [Supply-Chain-Secret-Hunting](https://github.com/Satz-N-Sentry/Supply-Chain-Secret-Hunting) | SSR token exposure via passive JS bundle recon | CWE-798 · High · Independently Validated |
-| [NCSA-VDP-Assessment](https://github.com/Satz-N-Sentry/NCSA-VDP-Assessment) | Full passive VAPT — RBAC, AI over-privilege, misconfigs | Certificate of Appreciation · 2026 |
+| [NCSA-VDP-Assessment](https://github.com/Satz-N-Sentry/NCSA-VDP-Assessment) | Full passive VAPT — RBAC, AI over-privilege, misconfigs | Certificate of Appreciation |
 | [FUTURE_CS_03](https://github.com/Satz-N-Sentry/FUTURE_CS_03) | API Security — 9 vulnerabilities on OWASP crAPI | OWASP · CVE · MITRE mapped |
 | [android-malware-analysis](https://github.com/Satz-N-Sentry/android-malware-analysis) | ML malware detection — Random Forest — 100% recall | Static analysis · scikit-learn · Python |
 | [SAIZERO-Cowrie-Honeypot](https://github.com/Satz-N-Sentry/SAIZERO-Cowrie-Honeypot) | SSH honeypot — real botnet confirmed — Wazuh SIEM integration | Real-world threat intelligence |
@@ -91,23 +95,27 @@ Scripting          │ Python · Bash · Docker
 ## 📊 OWASP Top 10:2025 Coverage
 
 ```
-A01 Broken Access Control     ████████████████████ Primary Research Focus
-A02 Cryptographic Failures    ███████████████░░░░░ JWT · Token · Crypto Analysis
-A03 Injection                 █████████████░░░░░░░ SQLi · XSS · SSTI
-A07 Auth & Session Failures   ████████████████░░░░ OAuth · WebSocket · Session
-A08 Software & Data Integrity ████████░░░░░░░░░░░░ Webhook · Supply Chain
-A10 SSRF                      ██████████░░░░░░░░░░ Webhook · Integration Abuse
+A01 Broken Access Control          ████████████████████  IDOR · Tenant Isolation · RBAC Bypass
+A02 Cryptographic Failures         ███████████████░░░░░  JWT · Token Exposure · Weak Crypto
+A03 Injection                      █████████████░░░░░░░  SQLi · XSS · SSTI · Command Injection
+A04 Insecure Design                ████████████░░░░░░░░  Business Logic · Auth Flow Design
+A05 Security Misconfiguration      ██████████████░░░░░░  API Keys · Headers · Debug Endpoints
+A06 Vulnerable & Outdated Components ████████░░░░░░░░░░░░  Supply Chain · Dependency Analysis
+A07 Auth & Identification Failures ████████████████░░░░  OAuth · WebSocket · Session Fixation
+A08 Software & Data Integrity      ████████░░░░░░░░░░░░  Webhook · Supply Chain · JS Tampering
+A09 Security Logging & Monitoring  ██████░░░░░░░░░░░░░░  Blind Spots · Error Disclosure
+A10 Server-Side Request Forgery    ██████████░░░░░░░░░░  Webhook Abuse · Integration Endpoints
 ```
 
 ---
 
 ## 🏅 Certifications & Recognition
 
-| Credential | Issuer | Year |
-|-----------|--------|------|
-| 🎯 CICSA — Certified IT Infrastructure & Cyber SOC Analyst | RedTeam Hacker Academy | 2025 |
-| 🎯 National Cybersecurity Certification | NCSA Maldives | 2026 |
-| 🎓 BSc Computer Science | Alagappa University | 2024 |
+| Credential | Issuer |
+|-----------|--------|
+| 🎯 CICSA — Certified IT Infrastructure & Cyber SOC Analyst | RedTeam Hacker Academy |
+| 🎯 National Cybersecurity Certification | NCSA Maldives |
+| 🎓 BSc Computer Science | Alagappa University |
 
 ---
 
@@ -115,15 +123,15 @@ A10 SSRF                      ██████████░░░░░░�
 
 ```python
 current_targets = {
-    "priority_1": "OAuth CSRF — state parameter validation bypass",
-    "priority_2": "SSRF via webhook and integration endpoints",
-    "priority_3": "JWT algorithm confusion — HS256 → none/RS256",
-    "priority_4": "Mass assignment on user profile endpoints",
-    "priority_5": "Stored XSS in user-controlled input fields"
+    "priority_1": "Mobile API surface — gRPC method enumeration via Frida",
+    "priority_2": "OAuth CSRF — state parameter validation bypass",
+    "priority_3": "SSRF via webhook and integration endpoints",
+    "priority_4": "JWT algorithm confusion — HS256 → none/RS256",
+    "priority_5": "Mass assignment on user profile endpoints"
 }
 
 methodology = "OWASP Top 10:2025 → Threat model → PoC → Responsible disclosure"
-affiliation  = "SAIZERO — Ground Zero Defence (2024 — Present)"
+affiliation  = "SAIZERO — Ground Zero Defence"
 ```
 
 ---
@@ -143,6 +151,7 @@ affiliation  = "SAIZERO — Ground Zero Defence (2024 — Present)"
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kalilinux&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat&logo=burpsuite&logoColor=white)
 ![OWASP](https://img.shields.io/badge/OWASP-Top10:2025-000000?style=flat&logo=owasp&logoColor=white)
+![Frida](https://img.shields.io/badge/Frida-Mobile_Security-purple?style=flat)
 ![Nuclei](https://img.shields.io/badge/Nuclei-00bcd4?style=flat&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
 ![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat&logoColor=white)
@@ -152,6 +161,7 @@ affiliation  = "SAIZERO — Ground Zero Defence (2024 — Present)"
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![Bug Bounty](https://img.shields.io/badge/Bug%20Bounty-Active-red?style=flat)
+![Mobile Security](https://img.shields.io/badge/Mobile-Security-8b5cf6?style=flat)
 ![WebSocket Security](https://img.shields.io/badge/WebSocket-Security-0077B5?style=flat)
 ![API Security](https://img.shields.io/badge/API-Security-cc0000?style=flat)
 ![JWT Analysis](https://img.shields.io/badge/JWT-Analysis-f59e0b?style=flat)
